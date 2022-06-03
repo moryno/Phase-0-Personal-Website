@@ -61,7 +61,40 @@ body {
     height:3.125rem;
     font-size:1.875rem;
     font-weight:bold;
-    color: #59b256;
+    color: #8203cc;
     display: flex;
     align-items:center;
+}
+
+#landing > .rightContainer {
+    flex: 1;
+    overflow: hidden;
+    position: relative;
+}
+
+#landing > .rightContainer > .background {
+    clip-path: polygon(100% 0%, 100% 60%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+    height: 100%;
+    width: 100%;
+    background-color: #8203cc;
+    position: absolute;
+    top:0;
+    right:0;
+}
+
+#landing > .rightContainer > img {
+    height:100%;
+    width:100%;
+    object-fit: cover;
+    position: absolute;
+    animation: slidein;
+}
+@keyframes slidein {
+    from {
+        left: 0px;
+      }
+      to {
+        left: 100px;
+        
+      }
 }
