@@ -23,7 +23,7 @@ nav > .navContainer {
 }
 
 nav > .navContainer > .left > h1 {
-    color:#8203cc
+    color: #a75eeb;
 }
 
 nav > .navContainer > .right > ul {
@@ -41,7 +41,8 @@ nav > .navContainer > .right > ul > li {
 }
 
 nav > .navContainer > .right > ul > li:hover {
-    color:#8203cc;
+    
+    color:#8203cc
 }
 
 /* ............................... LANDING SECTION ........................................ */
@@ -101,7 +102,7 @@ nav > .navContainer > .right > ul > li:hover {
     height:3.125rem;
     font-size:1.875rem;
     font-weight:bold;
-    color: #8203cc;
+    color: #a75eeb;
     display: flex;
     align-items:center;
 }
@@ -196,7 +197,35 @@ nav > .navContainer > .right > ul > li:hover {
     line-height: 1.5;
 }
 
+/* ...........................PROJECT SECTION ............................. */
 
+#projects {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 3rem 3.75rem;
+}
+
+#projects > .projectTitle {
+    width: 70%;
+}
+
+#projects > .projectContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#projects > .projectContainer > .projectCard {
+    width: 30%;
+    height: 40vh;
+    border: 2px solid rgb(243 242 242);
+    border-top-left-radius: 0.7rem;
+    border-top-right-radius: 0.7rem;
+    overflow: hidden;
+    
+}
 /* ........................... FOOTER SECTION .............................. */
 #footer {
     width: 100%;
