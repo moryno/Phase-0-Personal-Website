@@ -41,7 +41,7 @@ nav > .navContainer > .right > ul > li {
 }
 
 nav > .navContainer > .right > ul > li:hover {
-    color:#a511ef
+    color:#8203cc;
 }
 
 /* ............................... LANDING SECTION ........................................ */
@@ -116,7 +116,7 @@ nav > .navContainer > .right > ul > li:hover {
     clip-path: polygon(100% 0%, 100% 60%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
     height: 100%;
     width: 100%;
-    background-color: #8203cc;
+    background-color: #a75eeb;
     position: absolute;
     top:0;
     right:0;
@@ -203,7 +203,7 @@ nav > .navContainer > .right > ul > li:hover {
     display: flex;
     align-items: center;
     height: 20vh;
-    background-color: #8203cc;
+    background-color: #a75eeb;
 }
 
 #footer> .left {
