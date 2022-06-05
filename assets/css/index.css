@@ -45,6 +45,10 @@ nav > .navContainer > .right > ul > li:hover {
     
     color:#8203cc
 }
+a {
+    text-decoration: inherit;
+    color: inherit;
+}
 
 /* ............................... LANDING SECTION ........................................ */
 #landing {
@@ -215,6 +219,15 @@ nav > .navContainer > .right > ul > li:hover {
     width: 70%;
 }
 
+#projects > .projectTitle > h1 {
+    font-size: 50px;
+  font-weight: 600;
+}
+
+#projects > .projectTitle > p{
+    margin: 20px 0;
+}
+
 #projects > .projectContainer {
     display: flex;
     flex-wrap: wrap;
@@ -225,6 +238,7 @@ nav > .navContainer > .right > ul > li:hover {
     height: 40vh;
     margin: auto;
     margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
     border: 2px solid rgb(243 242 242);
     border-top-left-radius: 0.7rem;
     border-top-right-radius: 0.7rem;
@@ -250,12 +264,13 @@ nav > .navContainer > .right > ul > li:hover {
     background-color: white;
 }
 
-#projects > .projectContainer > .projectCard > img {
+#projects > .projectContainer > .projectCard > a > img {
     width: 100%;
     transition: all 10s ease; 
+    cursor: pointer;
 }
 
-#projects > .projectContainer > .projectCard > img:hover{
+#projects > .projectContainer > .projectCard > a > img:hover{
     transform: translateY(-100%);
 }
 /* ........................... FOOTER SECTION .............................. */

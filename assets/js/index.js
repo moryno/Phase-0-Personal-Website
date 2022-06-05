@@ -6,3 +6,8 @@ const footer = () => {
     footerText.textContent = `Copyright ⓒ ${year}`;
 }
 footer ();
+
+
+
+
+
