@@ -129,17 +129,17 @@ a {
     width:100%;
     object-fit: cover;
     position: absolute;
-    animation: slidein;
+    animation: slidein 3s ease-in;
 }
-/* @keyframes slidein {
+@keyframes slidein {
     from {
-        left: 0px;
+        left: 150px;
       }
       to {
-        left: 100px;
+        left: 0px;
         
       }
-} */
+}
 
 /* ............................. ABOUT SECTION .............................................. */
 #about {
