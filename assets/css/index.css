@@ -89,19 +89,15 @@ a {
 
 .titleContainer > .titleWrapper {
     height: 100%;
-    animation: move ease-in-out infinite alternate;
+    animation: move 30s ease-in-out infinite alternate;
 }
 
-/* @keyframes move {
-    from { top: 0px;}
-    
+@keyframes move {
     25% { transform: translateY(-50px)}
    50% { transform: translateY(-100px)}
    75% { transform: translateY(-150px)}
    100% { transform: translateY(-200px)}
-   
-   to {top: 200px;}
-} */
+}
 
 .titleContainer > .titleWrapper > .titleItem {
     height:3.125rem;
